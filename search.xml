@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>MyJavaPlan</title>
+      <link href="/2024/04/24/myjavaplan/"/>
+      <url>/2024/04/24/myjavaplan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java复习-学习计划"><a href="#Java复习-学习计划" class="headerlink" title="Java复习+学习计划"></a>Java复习+学习计划</h1><h2 id="第一步：复习java基础"><a href="#第一步：复习java基础" class="headerlink" title="第一步：复习java基础"></a>第一步：复习java基础</h2><p>宋老师的 Java 基础教程：<a href="https://www.bilibili.com/video/BV1YT4y1H7YM">https://www.bilibili.com/video/BV1YT4y1H7YM</a><br><a href="https://www.bilibili.com/video/BV1JZ421a7PX">https://www.bilibili.com/video/BV1JZ421a7PX</a><br>菜鸟教程 Java </p><h2 id="第二步：复习数据库"><a href="#第二步：复习数据库" class="headerlink" title="第二步：复习数据库"></a>第二步：复习数据库</h2><p>这部分主要学习的内容有：数据库的CRUD操作、JDBC API、数据库特性和数据库连接池。<br>尚硅谷的MySQL_基础+高级篇0<br><a href="https://www.bilibili.com/video/BV1iq4y1u7vj?p=22">https://www.bilibili.com/video/BV1iq4y1u7vj?p=22</a></p><h2 id="第三步：Java-Web"><a href="#第三步：Java-Web" class="headerlink" title="第三步：Java Web"></a>第三步：Java Web</h2><p><a href="https://www.bilibili.com/video/BV1UN411x7xe">https://www.bilibili.com/video/BV1UN411x7xe</a><br>后端 Java 技术包括 Servlet、Filter、Listener、Session、Cookie、JSP、EL 表达式和 JSTL 等</p><h2 id="第四步：主流框架"><a href="#第四步：主流框架" class="headerlink" title="第四步：主流框架"></a>第四步：主流框架</h2><p>项目管理工具：Maven和Git<br>maven：<a href="https://www.bilibili.com/video/BV1JN411G7gX">https://www.bilibili.com/video/BV1JN411G7gX</a><br>Git：Git 是一个开源的分布式版本控制系统，最大作用就是对文件进行版本管理，方便在不同版本进行切换修改，还可以很方便的协作开发。GitHub 是基于 Git 的代码库托管站，学会了 Git ，我们就能愉快地上 Github 交友了。<a href="https://www.bilibili.com/video/BV1FE411P7B3">https://www.bilibili.com/video/BV1FE411P7B3</a><br>SSM框架：<br><a href="https://www.bilibili.com/video/BV1Ya411S7aT">https://www.bilibili.com/video/BV1Ya411S7aT</a><br>Spring Boot：<br>Spring Boot 采用约定大约配置的方式，大量的减少了配置文件的使用，从而使开发人员不再需要定义样板化的配置。</p><h2 id="第五步：服务器中间件"><a href="#第五步：服务器中间件" class="headerlink" title="第五步：服务器中间件"></a>第五步：服务器中间件</h2><p>Redis、MQ、Elasticsearch这些中间件<br>Redis：<br>Redis 是一个 key-value 存储系统，是跨平台的非关系型数据库，可用作数据库，高速缓存和消息队列代理。<a href="https://www.bilibili.com/video/BV1cr4y1671t">https://www.bilibili.com/video/BV1cr4y1671t</a><br>MQ：<br>kafka和RabbitMQ二选一<br>①kafka：<a href="https://www.bilibili.com/video/BV1Gp421m7UN">https://www.bilibili.com/video/BV1Gp421m7UN</a><br>②RabbitMQ：<a href="https://www.bilibili.com/video/BV1cb4y1o7zz">https://www.bilibili.com/video/BV1cb4y1o7zz</a></p><p>Elasticsearch：<br>全文搜索属于最常见的需求，它可以快速地储存、搜索和分析海量数据。<a href="https://www.bilibili.com/video/BV17a4y1x7zq">https://www.bilibili.com/video/BV17a4y1x7zq</a></p><h2 id="第六步：微服务和分布式"><a href="#第六步：微服务和分布式" class="headerlink" title="第六步：微服务和分布式"></a>第六步：微服务和分布式</h2><p>Spring cloud是基于spring boot的微服务<br>Dubbo<br>Zookeeper</p><p>第七步：设计模式、多线程、JVM内部原理等面试考点</p><p>参考书籍：</p><ul><li>设计模式《HeadFirst设计模式》</li><li>JVM：《深入理解 Java 虚拟机》</li><li>Java并发：《 Java 并发编程的艺术》</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> plan </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计划 Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>写博客的一些细节</title>
       <link href="/2024/04/23/reminds/"/>
       <url>/2024/04/23/reminds/</url>
