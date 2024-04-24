@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>Markdown02</title>
+      <link href="/2024/04/24/markdown02/"/>
+      <url>/2024/04/24/markdown02/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Markdown-扩展语法"><a href="#Markdown-扩展语法" class="headerlink" title="Markdown 扩展语法"></a>Markdown 扩展语法</h1><h2 id="1-表格"><a href="#1-表格" class="headerlink" title="1.表格 "></a><span id="表格111">1.表格 </span></h2><p>通过三个或多个连字符<code>---</code>来创建每列的标题，并使用管道<code>|</code>分隔每列</p><table><thead><tr><th align="left">姓名</th><th align="left">性别</th><th align="left">年龄</th></tr></thead><tbody><tr><td align="left">张三</td><td align="left">男</td><td align="left">18</td></tr><tr><td align="left">李四</td><td align="left">女</td><td align="left">28</td></tr><tr><td align="left">王五</td><td align="left">中</td><td align="left">19</td></tr><tr><td align="left">赵六</td><td align="left">未知</td><td align="left">25</td></tr><tr><td align="left"></td><td align="left"></td><td align="left"></td></tr></tbody></table><p>格式化</p><p>表格内容的格式可以改变，例如：添加链接，代码和强调。</p><p>不能添加标题，块引用，列表，水平规则，图像或HTML标签。</p><h2 id="2-脚注"><a href="#2-脚注" class="headerlink" title="2.脚注"></a>2.脚注</h2><p>教主可以添加注释和参考。创建方法：<code>[^标识符]：我的脚注。</code></p><p>正文部分直接使用<code>[^标识符]</code>标记，点击既可以定位到脚注位置</p><p>例子：面向对象的三大特性是封装<a href="%E5%B0%81%E8%A3%85(encapsulation)%E5%8D%B3%E4%BF%A1%E6%81%AF%E9%9A%90%E8%94%BD%E3%80%82%E5%AE%83%E6%98%AF%E6%8C%87%E5%9C%A8%E7%A1%AE%E5%AE%9A%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%9F%90%E4%B8%80%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E6%97%B6%EF%BC%8C%E5%BA%94%E8%80%83%E8%99%91%E5%88%B0%E5%85%B6%E5%AE%83%E9%83%A8%E5%88%86%E7%9A%84%E4%BF%A1%E6%81%AF%E5%8F%8A%E8%81%94%E7%B3%BB%E9%83%BD%E5%9C%A8%E8%BF%99%E4%B8%80%E9%83%A8%E5%88%86%E7%9A%84%E5%86%85%E9%83%A8%E8%BF%9B%E8%A1%8C%EF%BC%8C%E5%A4%96%E9%83%A8%E5%90%84%E9%83%A8%E5%88%86%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BF%A1%E6%81%AF%E8%81%94%E7%B3%BB%E5%BA%94%E5%B0%BD%E5%8F%AF%E8%83%BD%E7%9A%84%E5%B0%91%E3%80%82">^a</a>、继承<a href="%E8%AE%A9%E6%9F%90%E4%B8%AA%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%AF%B9%E8%B1%A1%E8%8E%B7%E5%BE%97%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%B1%9E%E6%80%A7%E5%92%8C%E6%96%B9%E6%B3%95%E3%80%82%E7%BB%A7%E6%89%BF%E5%B0%B1%E6%98%AF%5B%E5%AD%90%E7%B1%BB%E7%BB%A7%E6%89%BF%E7%88%B6%E7%B1%BB%5D(https://so.csdn.net/so/search?q=%E5%AD%90%E7%B1%BB%E7%BB%A7%E6%89%BF%E7%88%B6%E7%B1%BB&amp;spm=1001.2101.3001.7020)%E7%9A%84%E7%89%B9%E5%BE%81%E5%92%8C%E8%A1%8C%E4%B8%BA%EF%BC%8C%E4%BD%BF%E5%BE%97%E5%AD%90%E7%B1%BB%E5%AF%B9%E8%B1%A1%EF%BC%88%E5%AE%9E%E4%BE%8B%EF%BC%89%E5%85%B7%E6%9C%89%E7%88%B6%E7%B1%BB%E7%9A%84%E5%AE%9E%E4%BE%8B%E5%9F%9F%E5%92%8C%E6%96%B9%E6%B3%95%EF%BC%8C%E6%88%96%E5%AD%90%E7%B1%BB%E4%BB%8E%E7%88%B6%E7%B1%BB%E7%BB%A7%E6%89%BF%E6%96%B9%E6%B3%95%EF%BC%8C%E4%BD%BF%E5%BE%97%E5%AD%90%E7%B1%BB%E5%85%B7%E6%9C%89%E7%88%B6%E7%B1%BB%E7%9B%B8%E5%90%8C%E7%9A%84%E8%A1%8C%E4%B8%BA%E3%80%82">^2</a>和多态[^三]。</p><hr><blockquote><p>[^三]: 对于同一个行为，不同的子类对象具有不同的表现形式。多态存在的3个条件：1）继承 2）重写 3）父类引用指向子类对象。</p></blockquote><h2 id="3-标题编号"><a href="#3-标题编号" class="headerlink" title="3.标题编号"></a>3.标题编号</h2><p>Markdown处理器支持自定义标题的id，而不是自动添加默认id。</p><p>可以使用HTML语法改id，也可以使用<code>{#id}</code>来修改id(<code>{#id}</code>报错)</p><h3 id="My-Heading"><a href="#My-Heading" class="headerlink" title="My Heading"></a>My Heading</h3><p><a href="#%E8%A1%A8%E6%A0%BC111">表格</a></p><p>[Heading](#My Heading)</p><p>连接到标题id</p><p>通过创建带有#和自定义标题id的链接，可以连接到文件中有自定义id的标题</p><p><code>[标准链接](url#id)</code></p><p>例子：<a href="Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html#6%E5%88%97%E8%A1%A8%E8%AF%AD%E6%B3%95">标准语法标题1</a></p><h2 id="4-定义列表"><a href="#4-定义列表" class="headerlink" title="4.定义列表"></a>4.定义列表</h2><p>Java</p><p>: A OOP Programing language.</p><h2 id="5-删除线"><a href="#5-删除线" class="headerlink" title="5.删除线"></a>5.删除线</h2><p>词句前后都加上~~</p><p><del>I’m the doctor.</del></p><h2 id="6-任务列表"><a href="#6-任务列表" class="headerlink" title="6.任务列表"></a>6.任务列表</h2><ul><li><p><input disabled="" type="checkbox"> Write something here</p></li><li><p><input checked="" disabled="" type="checkbox"> ssss</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown01</title>
+      <link href="/2024/04/24/markdown01/"/>
+      <url>/2024/04/24/markdown01/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Markdown-基本语法"><a href="#Markdown-基本语法" class="headerlink" title="Markdown 基本语法"></a>Markdown 基本语法</h1><h2 id="1-标题语法"><a href="#1-标题语法" class="headerlink" title="1. 标题语法"></a></h2><h2 id="标题1">1. 标题语法</h2><p>标题要以“#”开头，几个#就是几级标题。#和标题之间要留下空格</p><p>例如: ## heading （二级标题）</p><h2 id="2-段落语法"><a href="#2-段落语法" class="headerlink" title="2.段落语法"></a>2.段落语法</h2><p>空白行就是段落的分割符</p><h2 id="3-换行语法"><a href="#3-换行语法" class="headerlink" title="3.换行语法"></a>3.换行语法</h2><p>一行末尾加上两个或者多个空格，然后回车即可创建一个“换行”<br></p><br><h2 id="4-强调语法"><a href="#4-强调语法" class="headerlink" title="4.强调语法"></a>4.强调语法</h2><h3 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a><strong>粗体</strong></h3><p>在文本前后同时加上“**”或者“__”（双星或双下划线）即可加粗</p><p>单词中间只用**</p><h3 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a><strong>斜体</strong></h3><p>单词短语前后加上一个星号或下划线</p><p>单词中间只用*</p><h2 id="5-引用语法"><a href="#5-引用语法" class="headerlink" title="5.引用语法"></a>5.引用语法</h2><p>创建块引用，要在<strong>段落前</strong>加上&gt;</p><blockquote><p>我们都生活在这智慧之树下，从土中读；从雨中读。</p><p>而后化身小鸟，攀上枝头。</p><blockquote><p>看啊，这茂密的巨树，就是我们赖赖以生存的家园。 </p></blockquote><p>小鸟们雀跃、欢呼。</p></blockquote><p>段落内可以再次加上&gt;来实现引用的嵌套。</p><blockquote><p>国王问牧童：“永恒有多少秒钟？”</p><p>牧童回答道：“在后波美拉尼亚有座钻石山，这座山有两英里高，两英里宽，两英里深；每隔一百年有一只鸟飞来，用它的嘴来啄山，等整个山都被啄掉的时候，永恒的第一秒就结束了。”机智的牧童巧妙的回答获得了国王的赞赏。可是永恒有多远呢？</p></blockquote><blockquote><p>小时候以为生活永远就是和那些同伴无忧无虑地玩耍，但不知不觉我们都长大了，你以为的当初的生活已一去不复返，就连当初的那些人也未必全在。于是开始懂得“永远”是个伪命题。</p></blockquote><h3 id="带有其他元素的模块引用"><a href="#带有其他元素的模块引用" class="headerlink" title="带有其他元素的模块引用"></a>带有其他元素的模块引用</h3><blockquote><h4 id="Java-语言有以下几个特性"><a href="#Java-语言有以下几个特性" class="headerlink" title="Java 语言有以下几个特性"></a>Java 语言有以下几个特性</h4><ul><li>抽象</li><li>封装</li><li>继承</li><li>多态</li></ul><p><strong>面向对象</strong>（OOP）的三大<em>特性</em></p><ul><li>封装</li><li>继承</li><li>多态</li></ul></blockquote><h2 id="6-列表语法"><a href="#6-列表语法" class="headerlink" title="6.列表语法"></a>6.列表语法</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><p>英文打出”1.”就会自动生成列表</p><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>列表开头打”-“、”*” or “+”</p><h2 id="7-代码语法"><a href="#7-代码语法" class="headerlink" title="7.代码语法"></a>7.代码语法</h2><p>反括号`用于把单词或者短语标记为代码</p><p><code>for(int i=1;i&lt;= 4;i++){println(i);}</code></p><h3 id="转义反引号"><a href="#转义反引号" class="headerlink" title="转义反引号"></a>转义反引号</h3><p>如果代码片内部有一个或者多个反括号，则在外围加双反括号</p><h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><h4 id="a-缩进代码块"><a href="#a-缩进代码块" class="headerlink" title="a. 缩进代码块"></a>a. 缩进代码块</h4><p>每一行首采用相同的缩进：一个tab或者4个空白可组成一组缩进代码块</p><p>​int i=0;</p><p>​for(i;i&lt;=4;i++){</p><p>​println(i);</p><p>​}</p><h4 id="b-围栏代码块（高亮代码块）"><a href="#b-围栏代码块（高亮代码块）" class="headerlink" title="b.围栏代码块（高亮代码块）"></a>b.围栏代码块（高亮代码块）</h4><p>代码块以~~~或者```开头和结尾包围的区域</p><h2 id="8-分割线语法"><a href="#8-分割线语法" class="headerlink" title="8.分割线语法"></a>8.分割线语法</h2><p>要创建分割线，需要在单独一行上使用三个或者多个星号、破折号或下划线。</p><p>为了兼容性，分割线两边最好加上空白行</p><h2 id="9-链接语法"><a href="#9-链接语法" class="headerlink" title="9.链接语法"></a>9.链接语法</h2><p>超链接语法：<code>[超链接显示名](超链接地址)</code></p><p>例子：<a href="https://cn.bing.com/">必应搜索引擎</a></p><p><strong>链接加title</strong></p><p>链接title是鼠标悬停出现的文字</p><p>格式如下：<code>[超链接显示名](超链接地址 "title")</code></p><p>例子：<a href="https://cn.bing.com/" title="国内最好用的搜索引擎">必应搜索引擎</a></p><p><strong>简化版超链接</strong></p><p>只需用&lt;&gt;包裹链接即可</p><p><a href="https://cn.bing.com/">https://cn.bing.com/</a></p><p><strong>引用类链接</strong></p><p>引用类链接类似论文里的引用格式分两部分：</p><ol><li><p>引用部分</p><p><code>[链接名字] [标识]</code></p></li><li><p>url地址</p></li></ol><p>​<code>[标识]: url “title”</code></p><p>​或者<code>[标识](url)</code></p><h2 id="10-图片语法"><a href="#10-图片语法" class="headerlink" title="10.图片语法"></a>10.图片语法</h2><p>语法规则：<code>![图片alt](url "title")</code></p><p><img src="D:/docs/typora/MarkdownLearning/assets/img/Wallpaper.jpg" alt="这是一张壁纸" title="shenhe"></p><p>链接图片：</p><p><a href="https://cn.bing.com/" title="必应"><img src="D:/docs/typora/MarkdownLearning/assets/img/Wallpaper.jpg" alt="shenhe"></a></p><h2 id="11-转移字符语法"><a href="#11-转移字符语法" class="headerlink" title="11.转移字符语法"></a>11.转移字符语法</h2><p>在字符前加上\可实现转义</p><ul><li><p>没有转义</p><p>* 有转义可打出<code>* </code></p></li></ul><p>可转义的字符：\ `*_{}[]()#+-.!|</p><p>特殊字符自动转义</p><p>在HTML文件中，有两个字符需要特殊处理：&lt;(<code>&amp;lt</code>)和&amp;(<code>&amp;amp</code>)。</p><p>如：<code>4 &gt; 5</code></p><p>4 &lt; 5</p><h2 id="12-内嵌HTML标签"><a href="#12-内嵌HTML标签" class="headerlink" title="12.内嵌HTML标签"></a>12.内嵌HTML标签</h2><p>HTML语法在Markdown也支持</p><table>    <tbody><tr>        <td>this is a table</td>    </tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MyJavaPlan</title>
       <link href="/2024/04/24/myjavaplan/"/>
       <url>/2024/04/24/myjavaplan/</url>

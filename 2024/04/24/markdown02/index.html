@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="分类, Java JavaSE JavaWeb 框架">
-    <meta name="description" content="萌新的学习轨迹">
+    <meta name="keywords" content="Markdown02, Java JavaSE JavaWeb 框架">
+    <meta name="description" content="Markdown扩展语法">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>分类 | 自由之道</title>
+    <title>Markdown02 | 自由之道</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -330,159 +330,483 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Markdown02</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
     <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                Erutand的个人博客
-                
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/blog/" class="post-category">
+                                blog
+                            </a>
+                        
+                    </div>
+                    
+                </div>
             </div>
 
-            <div class="description center-align">
+            <div class="post-info">
                 
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2024-04-24
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2024-04-24
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    368
+                </div>
+                
+
+                
+
                 
             </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="Markdown-扩展语法"><a href="#Markdown-扩展语法" class="headerlink" title="Markdown 扩展语法"></a>Markdown 扩展语法</h1><h2 id="1-表格"><a href="#1-表格" class="headerlink" title="1.表格 "></a><span id="表格111">1.表格 </span></h2><p>通过三个或多个连字符<code>---</code>来创建每列的标题，并使用管道<code>|</code>分隔每列</p>
+<table>
+<thead>
+<tr>
+<th align="left">姓名</th>
+<th align="left">性别</th>
+<th align="left">年龄</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">张三</td>
+<td align="left">男</td>
+<td align="left">18</td>
+</tr>
+<tr>
+<td align="left">李四</td>
+<td align="left">女</td>
+<td align="left">28</td>
+</tr>
+<tr>
+<td align="left">王五</td>
+<td align="left">中</td>
+<td align="left">19</td>
+</tr>
+<tr>
+<td align="left">赵六</td>
+<td align="left">未知</td>
+<td align="left">25</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<p>格式化</p>
+<p>表格内容的格式可以改变，例如：添加链接，代码和强调。</p>
+<p>不能添加标题，块引用，列表，水平规则，图像或HTML标签。</p>
+<h2 id="2-脚注"><a href="#2-脚注" class="headerlink" title="2.脚注"></a>2.脚注</h2><p>教主可以添加注释和参考。创建方法：<code>[^标识符]：我的脚注。</code></p>
+<p>正文部分直接使用<code>[^标识符]</code>标记，点击既可以定位到脚注位置</p>
+<p>例子：面向对象的三大特性是封装<a href="%E5%B0%81%E8%A3%85(encapsulation)%E5%8D%B3%E4%BF%A1%E6%81%AF%E9%9A%90%E8%94%BD%E3%80%82%E5%AE%83%E6%98%AF%E6%8C%87%E5%9C%A8%E7%A1%AE%E5%AE%9A%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%9F%90%E4%B8%80%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E6%97%B6%EF%BC%8C%E5%BA%94%E8%80%83%E8%99%91%E5%88%B0%E5%85%B6%E5%AE%83%E9%83%A8%E5%88%86%E7%9A%84%E4%BF%A1%E6%81%AF%E5%8F%8A%E8%81%94%E7%B3%BB%E9%83%BD%E5%9C%A8%E8%BF%99%E4%B8%80%E9%83%A8%E5%88%86%E7%9A%84%E5%86%85%E9%83%A8%E8%BF%9B%E8%A1%8C%EF%BC%8C%E5%A4%96%E9%83%A8%E5%90%84%E9%83%A8%E5%88%86%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BF%A1%E6%81%AF%E8%81%94%E7%B3%BB%E5%BA%94%E5%B0%BD%E5%8F%AF%E8%83%BD%E7%9A%84%E5%B0%91%E3%80%82">^a</a>、继承<a href="%E8%AE%A9%E6%9F%90%E4%B8%AA%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%AF%B9%E8%B1%A1%E8%8E%B7%E5%BE%97%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%B1%9E%E6%80%A7%E5%92%8C%E6%96%B9%E6%B3%95%E3%80%82%E7%BB%A7%E6%89%BF%E5%B0%B1%E6%98%AF%5B%E5%AD%90%E7%B1%BB%E7%BB%A7%E6%89%BF%E7%88%B6%E7%B1%BB%5D(https://so.csdn.net/so/search?q=%E5%AD%90%E7%B1%BB%E7%BB%A7%E6%89%BF%E7%88%B6%E7%B1%BB&amp;spm=1001.2101.3001.7020)%E7%9A%84%E7%89%B9%E5%BE%81%E5%92%8C%E8%A1%8C%E4%B8%BA%EF%BC%8C%E4%BD%BF%E5%BE%97%E5%AD%90%E7%B1%BB%E5%AF%B9%E8%B1%A1%EF%BC%88%E5%AE%9E%E4%BE%8B%EF%BC%89%E5%85%B7%E6%9C%89%E7%88%B6%E7%B1%BB%E7%9A%84%E5%AE%9E%E4%BE%8B%E5%9F%9F%E5%92%8C%E6%96%B9%E6%B3%95%EF%BC%8C%E6%88%96%E5%AD%90%E7%B1%BB%E4%BB%8E%E7%88%B6%E7%B1%BB%E7%BB%A7%E6%89%BF%E6%96%B9%E6%B3%95%EF%BC%8C%E4%BD%BF%E5%BE%97%E5%AD%90%E7%B1%BB%E5%85%B7%E6%9C%89%E7%88%B6%E7%B1%BB%E7%9B%B8%E5%90%8C%E7%9A%84%E8%A1%8C%E4%B8%BA%E3%80%82">^2</a>和多态[^三]。</p>
+<hr>
+<blockquote>
+<p>[^三]: 对于同一个行为，不同的子类对象具有不同的表现形式。多态存在的3个条件：1）继承 2）重写 3）父类引用指向子类对象。</p>
+</blockquote>
+<h2 id="3-标题编号"><a href="#3-标题编号" class="headerlink" title="3.标题编号"></a>3.标题编号</h2><p>Markdown处理器支持自定义标题的id，而不是自动添加默认id。</p>
+<p>可以使用HTML语法改id，也可以使用<code>{#id}</code>来修改id(<code>{#id}</code>报错)</p>
+<h3 id="My-Heading"><a href="#My-Heading" class="headerlink" title="My Heading"></a>My Heading</h3><p><a href="#%E8%A1%A8%E6%A0%BC111">表格</a></p>
+<p>[Heading](#My Heading)</p>
+<p>连接到标题id</p>
+<p>通过创建带有#和自定义标题id的链接，可以连接到文件中有自定义id的标题</p>
+<p><code>[标准链接](url#id)</code></p>
+<p>例子：<a href="Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html#6%E5%88%97%E8%A1%A8%E8%AF%AD%E6%B3%95">标准语法标题1</a></p>
+<h2 id="4-定义列表"><a href="#4-定义列表" class="headerlink" title="4.定义列表"></a>4.定义列表</h2><p>Java</p>
+<p>: A OOP Programing language.</p>
+<h2 id="5-删除线"><a href="#5-删除线" class="headerlink" title="5.删除线"></a>5.删除线</h2><p>词句前后都加上~~</p>
+<p><del>I’m the doctor.</del></p>
+<h2 id="6-任务列表"><a href="#6-任务列表" class="headerlink" title="6.任务列表"></a>6.任务列表</h2><ul>
+<li><p><input disabled="" type="checkbox"> 
+Write something here</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+ssss</p>
+</li>
+</ul>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Erutand</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://example.com/2024/04/24/markdown02/">http://example.com/2024/04/24/markdown02/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Erutand</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2024/04/24/markdown02/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Markdown02">
+                        
+                        <span class="card-title">Markdown02</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Markdown扩展语法
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/blog/" class="post-category">
+                                    blog
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2024/04/24/markdown01/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Markdown01">
+                        
+                        <span class="card-title">Markdown01</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Markdown基本语法
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/blog/" class="post-category">
+                                    blog
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
         </div>
     </div>
 </div>
 
+<!-- TOC 悬浮按钮. -->
 
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
-<script>
-    
-      var bannerUrl = "/medias/featureimages/" + Math.floor(Math.random() * 24) + '.jpg';
-    
-    $('.bg-cover.about-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
 
-</script>
-
-
-    </div>
-</div>
-
-<main class="content">
-
-    
-
-<div id="category-cloud" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
-            </div>
-            <div class="tag-chips">
-                
-                
-                
-                <a href="/categories/blog/" title="blog: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F9EBEA;">blog
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/plan/" title="plan: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F5EEF8;">plan
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-
-    
-    <style type="text/css">
-    #category-radar {
-        width: 100%;
-        height: 360px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
-    
-
-    let option = {
-        title: {
-            left: 'center',
-            text: '文章分类雷达图',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
             }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"blog","max":4},{"name":"plan","max":4}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [3,1],
-                    name : '文章分类数量'
-                }
-            ]
-        }]
-    };
+        });
 
-    radarChart.setOption(option);
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
 </script>
 
     
 
 </main>
+
+
 
 
     <footer class="page-footer bg-color">
